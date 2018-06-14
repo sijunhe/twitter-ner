@@ -40,6 +40,18 @@ usage: main.py [-h] [--max-chars MAX_CHARS] [--glove-dim GLOVE_DIM]
                [--cuda CUDA] [--random-seed RANDOM_SEED]
                [--model-name MODEL_NAME] [--save SAVE]
                [--write-test WRITE_TEST]
+```
+
+## Results
+
+| Model         | Dev. F1 score | 
+| ------------- |:-------------:| 
+| Logistic Regression     | 21.06%|
+| Support Vector Machine     | 35.87 %  |
+| Multi-layer Perceptron | 40.83 %   |
+| Ensemble(SVM + MLP) | 43.03 %   |
+| BiLSTM-CharCNN-CRF | 65.13 %    |
+
 
 
          
